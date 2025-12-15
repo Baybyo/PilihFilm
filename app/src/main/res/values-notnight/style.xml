@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.PilihFilm" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_violet</item>
+        <item name="colorSecondary">@color/brand_coral</item>
+
+        <item name="android:windowBackground">@color/day_background</item>
+        <item name="colorSurface">@color/day_surface</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="fontFamily">@font/lato_regular</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_poster_splash</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="backgroundColor">@color/day_surface</item>
+        <item name="itemIconTint">@color/selector_nav_icon</item>
+        <item name="itemTextColor">@color/selector_nav_icon</item>
+        <item name="elevation">8dp</item>
+    </style>
+</resources>

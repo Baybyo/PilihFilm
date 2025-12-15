@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Izin akses internet untuk TMDB API -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_primary"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PilihFilm"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+
+        <!-- Halaman detail film, aktor, dan TV -->
+        <activity android:name=".ui.detail.MovieDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.detail.CastDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.detail.TvSeriesDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Halaman daftar semua film & TV -->
+        <activity android:name=".ui.home.activity.AllMoviesActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.home.activity.AllTvActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Halaman splash (launcher pertama) -->
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Halaman utama setelah login -->
+        <activity android:name=".ui.home.activity.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Halaman login & auth -->
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PilihFilm" />
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PilihFilm" />
+        <activity
+            android:name=".ui.auth.ForgotPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PilihFilm" />
+        <activity
+            android:name=".ui.auth.ProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PilihFilm" />
+        <!--  halaman pencarian film -->
+        <activity
+            android:name=".ui.search.SearchActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:theme="@style/Theme.PilihFilm" />
+
+    </application>
+
+</manifest>

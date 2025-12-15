@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pilih Film</string>
+    <string name="error_loading_data"> Gagal memuat data</string>
+    <string name="birthday_format">🎂 Tanggal Lahir : %1$s</string>
+    <string name="popularity_format">🔥 Popularitas : %1$.1f</string>
+    <string name="release_date_format">📅 Tanggal Rilis : %1$s</string>
+    <string name="first_air_date_format">📅 Tanggal Tayang Pertam : %1$s</string>
+    <string name="seasons_format">📺 Jumlah Musim : %1$d</string>
+    <string name="episodes_format">🎞 Jumlah Episode : %1$d</string>
+    <string name="favorite_added">Ditambahkan ke favorit</string>
+    <string name="favorite_removed">Dihapus dari favorit</string>
+    <string name="see_all">Lihat Semua</string>
+    <string name="movies">Film</string>
+    <string name="tv_series">Serial TV</string>
+    <string name="dark_mode">Mode Gelap</string>
+    <string name="select_language">Pilih Bahasa</string>
+    <string name="english">English</string>
+    <string name="turkish">Indonesia</string>
+    <string name="favorites_title">Favorit</string>
+    <string name="menu_wishlist">Favorit</string>
+    <string name="now_playing">Mainkan Sekarang</string>
+    <string name="popular">Populer</string>
+    <string name="top_rated">Rating Teratas</string>
+    <string name="upcoming">Mendatang</string>
+    <string name="tv_popular">TV Populer</string>
+    <string name="airing_today">Tayang Hari Ini</string>
+    <string name="on_the_air">Diatas Udara</string>
+    <string name="full_casts">Pemeran Penuh</string>
+    <string name="recommend_contents">Rekomendasi Konten</string>
+    <string name="search_hint">Cari film, serial TV...</string>
+    <string name="recent_searches">Pencarian Terakhir</string>
+    <string name="people">Orang / Aktor</string>
+    <string name="no_results">Tidak ada hasil ditemukan</string>
+    <string name="search">Cari</string>
+    <string name="settings">Pengaturan</string>
+    <string name="season">Musim</string>
+    <string name="episode">Episode</string>
+    <string name="keyword">Kata Kunci</string>
+    <string name="movie_name">Nama Film</string>
+    <string name="series_name">Nama Series</string>
+    <string name="rating_suffix">/10</string>
+
+    <string name="category_display">Tampilan</string>
+    <string name="category_account">Akun</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirm_title">Konfirmasi Logout</string>
+    <string name="logout_confirm_message">Apakah Anda yakin ingin logout?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+
+    <string name="profile">Profil Pengguna</string>
+    <string name="profile_title">Profil Saya</string>
+    <string name="profile_username">Username</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_loading">Memuat profil...</string>
+    <string name="profile_load_error">Gagal memuat profil</string>
+    <string name="coming_soon">Fitur ini akan segera hadir!</string>
+
+    <string name="profile_edit">Edit Profil</string>
+    <string name="profile_save">Simpan Perubahan</string>
+    <string name="profile_saving">Menyimpan...</string>
+    <string name="profile_update_success">Username berhasil diperbarui</string>
+    <string name="profile_update_fail">Gagal memperbarui username</string>
+    <string name="profile_username_empty">Username tidak boleh kosong</string>
+
+    <string name="profile_change_password">Ubah Password</string>
+    <string name="profile_delete_account">Hapus Akun</string>
+    <string name="profile_change_password_title">Konfirmasi Ubah Password</string>
+    <string name="profile_change_password_message">Kami akan mengirimkan link untuk mereset password Anda ke email:\n\n%1$s\n\nLanjutkan?</string>
+    <string name="profile_change_password_success">Link reset password telah dikirim ke email Anda.</string>
+    <string name="profile_change_password_fail">Gagal mengirim link. Coba lagi nanti.</string>
+    <string name="profile_change_password_google_user">Anda login menggunakan Google. Password tidak dapat diubah dari aplikasi ini.</string>
+
+    <string name="profile_delete_account_title">Hapus Akun?</string>
+    <string name="profile_delete_account_message">Apakah Anda yakin ingin menghapus akun Anda secara permanen? Tindakan ini tidak dapat dibatalkan.\n\nData Anda (termasuk Favorit) akan dihapus.</string>
+    <string name="delete">Hapus</string>
+    <string name="profile_delete_success">Akun berhasil dihapus.</string>
+    <string name="profile_delete_fail_firestore">Gagal menghapus data profil.</string>
+    <string name="profile_delete_fail_auth">Gagal menghapus akun.</string>
+    <string name="profile_delete_reauth_required">Operasi ini sensitif. Silakan logout terlebih dahulu, login kembali, dan coba lagi untuk menghapus akun.</string>
+
+    <string name="category_info">Informasi &amp; Bantuan</string>
+    <string name="settings_clear_cache">Hapus Cache</string>
+    <string name="settings_about">Tentang Aplikasi</string>
+    <string name="clear_cache_success">Cache berhasil dibersihkan</string>
+    <string name="clear_cache_fail">Gagal membersihkan cache</string>
+    <string name="about_title">Tentang Pilih Film</string>
+    <string name="about_message">Aplikasi Pilih Film\nVersi 1.0\n\nDibuat oleh Halil Ozel (dimodifikasi untuk demonstrasi)</string>
+
+    <string name="category_content_customization">Kustomisasi Konten</string>
+    <string name="settings_adult_content">Tampilkan Konten Dewasa (18+)</string>
+    <string name="settings_region">Pilih Wilayah Konten</string>
+    <string name="settings_region_desc">Memengaruhi film/serial TV yang sedang tren dan populer.</string>
+
+    <string name="category_data_management">Manajemen Data</string>
+    <string name="settings_clear_wishlist">Hapus Semua Favorit</string>
+    <string name="clear_wishlist_title">Hapus Favorit?</string>
+    <string name="clear_wishlist_message">Apakah Anda yakin ingin menghapus SEMUA film dan serial TV dari Favorit Anda? Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="clear_wishlist_success">Semua Favorit berhasil dihapus.</string>
+    <string name="clear_wishlist_fail">Gagal menghapus Favorit.</string>
+    <string name="clear_wishlist_login_required">Anda harus login untuk menghapus Favorit.</string>
+
+    <string name="settings_clear_search_history">Hapus Riwayat Pencarian</string>
+    <string name="clear_search_history_title">Hapus Riwayat Pencarian?</string>
+    <string name="clear_search_history_message">Apakah Anda yakin ingin menghapus semua riwayat pencarian Anda?</string>
+    <string name="clear_search_history_success">Riwayat pencarian berhasil dihapus.</string>
+
+    <string name="profile_photo_desc">Foto Profil Pengguna</string>
+    <string name="profile_edit_photo_desc">Edit Foto Profil</string>
+
+    <string name="profile_photo_uploading">Mengunggah foto...</string>
+    <string name="profile_photo_upload_success">Foto profil berhasil diperbarui.</string>
+    <string name="profile_photo_upload_fail">Gagal mengunggah foto.</string>
+    <string name="permission_denied_storage">Izin galeri ditolak. Foto tidak dapat diubah.</string>
+    <string name="profile_photo_select">Pilih Foto Profil</string>
+
+    <string name="default_web_client_id">857690985953-evki2pumope117ks36cmp9m85ku55b7r.apps.googleusercontent.com</string>
+
+</resources>

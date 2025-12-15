@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="region_names">
+        <item>Indonesia (ID)</item>
+        <item>Amerika Serikat (US)</item>
+    </string-array>
+
+    <string-array name="region_codes">
+        <item>ID</item>
+        <item>US</item>
+    </string-array>
+
+    <string-array name="language_names">
+        <item>English (US)</item>
+        <item>Indonesia</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>en-US</item>
+        <item>id-ID</item>
+    </string-array>
+</resources>

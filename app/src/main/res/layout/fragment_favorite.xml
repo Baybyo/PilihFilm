@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvFavoritesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="@string/favorites_title" />
+
+    <!-- RecyclerView untuk daftar favorit -->
+    <!-- Perluas RecyclerView agar mengambil sisa ruang yang tersedia di LinearLayout,
+         kecuali jika Anda ingin ia mengambil tinggi seperlunya saja (wrap_content)
+         dan TextView pesan kosong berada di bawahnya. Untuk tampilan daftar,
+         wrap_content biasanya lebih umum untuk RecyclerView di dalam NestedScrollView. -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp" />
+
+    <!-- 🛑 TAMBAHKAN TextView UNTUK PESAN KOSONG 🛑 -->
+    <TextView
+        android:id="@+id/tvEmptyMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="32dp"
+        android:text="Anda belum menambahkan film ke daftar Favorit. \nTambahkan Favorit Anda sekarang!"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:visibility="gone" />
+</LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:fillViewport="true">-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <com.google.android.material.textview.MaterialTextView-->
+<!--            android:id="@+id/tvFavoritesTitle"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:paddingTop="5dp"-->
+<!--            android:text="@string/favorites_title" />-->
+
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/rvFavorites"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content" />-->
+<!--    </LinearLayout>-->
+<!--</androidx.core.widget.NestedScrollView>-->
